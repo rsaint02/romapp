@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import ligue from './ligue.jpg';
+
 import './App.css';
 
 class App extends Component {
@@ -24,7 +26,7 @@ class App extends Component {
       </div>
 
         <body> voici la liste des club de ligue 1 </body>
-        <img src="http://ultimodiez.fr/wp-content/uploads/2017/07/naming-ligue-1-lfp-1.jpg" width="160" height="120" />
+        <img src={ligue} width="160" height="120" />
               <ul>
               <li>Lyon</li>
               <li>Monaco</li>
